@@ -1,0 +1,40 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: hsl(224, 93%, 53%);
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.search {
+  background-color: transparent;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-left: 30px; 
+}
+
+.search::placeholder {
+  color: #000000;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  overflow: hidden;
+  position: relative;
+  margin: 1rem;
+  width: 300px;
+}
+.movie img {
+  width: 100%;
+}
+
+
+
